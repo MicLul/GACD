@@ -1,3 +1,6 @@
+# Loading library
+library("reshape2")
+
 # Unzipping data
 unzip("getdata-projectfiles-UCI HAR Dataset.zip", files = NULL, list = FALSE, overwrite = TRUE, junkpaths = FALSE, exdir = ".", unzip = "internal", setTimes = FALSE)
  

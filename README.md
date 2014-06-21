@@ -50,7 +50,7 @@ Good luck!
 
 ####Summary of processing steps in 'run_analysis.R'
 
-1. Unzips 'getdata-projectfiles-UCI HAR Dataset.zip'.
+1. Unzips 'getdata-projectfiles-UCI HAR Dataset.zip' (Assumed to be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 2. Reads the test input files into data frames and merges the dataframes by columns.  Repeats this step for the training input files.
 
@@ -67,6 +67,6 @@ Good luck!
 8. Writes the dataframe resulting from step 6 to 'tidy1.txt' and the dataframe resulting from step 7 to 'tidy2.txt'.
 
 
-####Original Data Source:
+####Original Data Source
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
