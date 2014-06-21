@@ -1,9 +1,7 @@
-Getting and Cleaning Data Course Project Codebook
+##Getting and Cleaning Data Course Project Codebook
 
 
-==================
-First Tidy Dataset
-==================
+###First Tidy Dataset
 
 The data set 'tidy1.txt' includes the variables listed in 'features.txt' that have the patterns 'mean', 'Mean', or 'std'.  These variables, described in 'features_info.txt' (reproduced below), are the following:
 
@@ -95,20 +93,14 @@ The data set 'tidy1.txt' includes the variables listed in 'features.txt' that ha
 86. "angle(Z,gravityMean)"
 
 
-===================
-Second Tidy Dataset
-===================
+###Second Tidy Dataset
 
 The data set 'tidy2.txt' includes the average of each variable in 'tidy1.txt', above, for each activity and each subject.  The original variable names are retained.
 
 
-==============================
-Content of 'features_info.txt'
-==============================
+###Content of 'features_info.txt'
 
-
-Feature Selection 
-=================
+####Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
